@@ -102,9 +102,9 @@ A **Priority Queue** is an abstract data structure where each element has a prio
 
 ---
 
-### Q3. a) **Advantages and Disadvantages of Linked List over Array**
+## Q3. a) **Advantages and Disadvantages of Linked List over Array**
 
-#### **Advantages of Linked List:**
+### **Advantages of Linked List:**
 1. **Dynamic Size**: 
    - A linked list can grow or shrink dynamically, allowing efficient memory utilization without requiring reallocation or resizing like arrays.
    
@@ -119,7 +119,7 @@ A **Priority Queue** is an abstract data structure where each element has a prio
 
 ---
 
-#### **Disadvantages of Linked List:**
+### **Disadvantages of Linked List:**
 1. **Memory Overhead**:
    - Each node requires additional memory for the pointer/reference to the next node.
    
@@ -134,14 +134,14 @@ A **Priority Queue** is an abstract data structure where each element has a prio
 
 ---
 
-### b) **Collision in Hashing**
+## b) **Collision in Hashing**
 
-#### **What is Collision?**
+### **What is Collision?**
 - A **collision** occurs in hashing when two different keys are hashed to the same index in a hash table. This is inevitable because the hash function maps a large number of possible keys into a fixed number of indices.
 
 ---
 
-#### **Collision Handling Techniques:**
+### **Collision Handling Techniques:**
 1. **Chaining (Separate Chaining)**:
    - Store all elements that hash to the same index in a **linked list** or other structure at that index.
    - Advantages:
