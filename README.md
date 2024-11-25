@@ -51,7 +51,8 @@ A **stack** is a linear data structure that follows the **LIFO** (Last In, First
 
 
 ## **Internal 2nd 2K23**
----Q5. Construct a binary tree from the given In-order and Pre-order traversal sequences.
+---
+### **Q5. Construct a binary tree from the given In-order and Pre-order traversal sequences.**
 In-order sequence: D, B, E, A, F, C
 Pre-order sequence: A, B, D, E, C, F
 
