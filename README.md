@@ -99,6 +99,76 @@ A **Priority Queue** is an abstract data structure where each element has a prio
 - Dijkstra’s algorithm for finding the shortest path.
 - Event-driven simulations.
 
+
+---
+
+## Q5. b) Explan :
+### **a) Complete and Connected Graph**
+
+1. **Complete Graph**:  
+   - A graph where every pair of vertices is directly connected by an edge.  
+   - Example: For 3 vertices \( A, B, C \):  
+     - Edges: \( AB, AC, BC \). All possible connections are present.  
+
+2. **Connected Graph**:  
+   - A graph where there is at least one path between any two vertices.  
+   - Example: If \( A \) is connected to \( B \), and \( B \) is connected to \( C \), then \( A \) and \( C \) are indirectly connected.  
+   - **Key Difference**: A connected graph does not require every vertex to have a direct edge, unlike a complete graph.
+
+---
+
+### **b) Strictly and Complete Binary Tree**
+
+1. **Strictly Binary Tree (Full Binary Tree)**:  
+   - A binary tree where every non-leaf node has **exactly two children**.  
+   - Example:
+     ```
+         A
+       /   \
+      B     C
+     ```
+   - **Note**: Leaf nodes do not have children.
+
+2. **Complete Binary Tree**:  
+   - A binary tree where:
+     - All levels are fully filled **except the last level**, and
+     - All nodes in the last level are as far left as possible.  
+   - Example:
+```
+         A
+       /   \
+      B     C
+     / \
+    D   E
+```
+
+---
+
+### **c) Max and Min Heap**
+
+1. **Max Heap**:  
+   - A binary tree where:  
+     - The value of each parent node is **greater than or equal** to its children.  
+     - The root node contains the **largest value**.  
+   - Example:
+     ```
+         50
+       /    \
+      30     20
+     ```
+
+2. **Min Heap**:  
+   - A binary tree where:  
+     - The value of each parent node is **less than or equal** to its children.  
+     - The root node contains the **smallest value**.  
+   - Example:
+     ```
+         10
+       /    \
+      15     30
+     ```
+
+---
 ---
 ---
 
