@@ -1,4 +1,6 @@
-# DS_Exam### **What is a Stack?**
+## **Internal 1st 2K23**
+---
+### **Q1. What is a Stack?**
 
 A **stack** is a linear data structure that follows the **LIFO** (Last In, First Out) principle.  
 - This means the last element added to the stack is the first one to be removed.  
