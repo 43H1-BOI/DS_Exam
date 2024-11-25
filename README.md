@@ -44,3 +44,26 @@ A **stack** is a linear data structure that follows the **LIFO** (Last In, First
 1. Push elements: `[10, 20, 30]` → Stack becomes `[10, 20, 30]`.  
 2. Pop element: Remove `30` → Stack becomes `[10, 20]`.  
 3. Peek/Top: Top element is `20`.
+
+
+
+
+
+
+## **Internal 2nd 2K23**
+---Q5. Construct a binary tree from the given In-order and Pre-order traversal sequences.
+In-order sequence: D, B, E, A, F, C
+Pre-order sequence: A, B, D, E, C, F
+
+
+### Constructed Tree:
+
+```
+       A
+      / \
+     B   C
+    / \  /
+   D  E F
+```
+
+---
