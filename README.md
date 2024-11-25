@@ -66,5 +66,40 @@ In-order sequence: D, B, E, A, F, C
     / \  /
    D  E F
 ```
+---
 
+
+
+## Q2. b) Define :
+### **Dequeue (Double-Ended Queue):**
+A **Dequeue** is a data structure in which elements can be added or removed from **both ends** (front and rear). It combines the features of both stacks and queues.
+
+#### Characteristics:
+- Insertion and deletion can be performed at both ends.
+- There are two main types of deques:
+  1. **Input-restricted deque**: Insertions are allowed at one end, but deletions can be performed at both ends.
+  2. **Output-restricted deque**: Deletions are allowed at one end, but insertions can be performed at both ends.
+
+#### Applications:
+- Managing tasks in a sliding window.
+- Keeping track of the recent history in applications like text editors.
+
+---
+
+### **Priority Queue:**
+A **Priority Queue** is an abstract data structure where each element has a priority assigned to it. Elements with **higher priority** are served before those with lower priority. If two elements have the same priority, their order of service depends on the implementation (e.g., FIFO for equal priorities).
+
+#### Characteristics:
+- Can be implemented using data structures like heaps, arrays, or linked lists.
+- Common operations:
+  - **Insert**: Add an element to the queue.
+  - **Extract/Remove Max/Min**: Remove the element with the highest or lowest priority.
+  - **Peek**: View the element with the highest or lowest priority without removing it.
+
+#### Applications:
+- CPU scheduling in operating systems.
+- Dijkstra’s algorithm for finding the shortest path.
+- Event-driven simulations.
+
+---
 ---
