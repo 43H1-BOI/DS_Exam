@@ -1,4 +1,4 @@
-# **Internal 1st 2K23**
+# **Internal 1st 2K24-25**
 ---
 ## **Q1. What is a Stack?**
 
@@ -50,7 +50,7 @@ A **stack** is a linear data structure that follows the **LIFO** (Last In, First
 
 
 
-# **Internal 2nd 2K23**
+# **Internal 2nd 2K24-25**
 ---
 ## **Q5. Construct a binary tree from the given In-order and Pre-order traversal sequences.**
 In-order sequence: D, B, E, A, F, C
@@ -67,6 +67,7 @@ In-order sequence: D, B, E, A, F, C
 ```
 ---
 
+# **End Sem 2K23-24**
 ## Q2. b) Define :
 ### **Dequeue (Double-Ended Queue):**
 A **Dequeue** is a data structure in which elements can be added or removed from **both ends** (front and rear). It combines the features of both stacks and queues.
