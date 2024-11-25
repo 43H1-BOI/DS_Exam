@@ -102,6 +102,87 @@ A **Priority Queue** is an abstract data structure where each element has a prio
 
 ---
 
+### Q3. a) **Advantages and Disadvantages of Linked List over Array**
+
+#### **Advantages of Linked List:**
+1. **Dynamic Size**: 
+   - A linked list can grow or shrink dynamically, allowing efficient memory utilization without requiring reallocation or resizing like arrays.
+   
+2. **Efficient Insertions/Deletions**:
+   - Insertions and deletions at any position are more efficient compared to arrays because shifting elements is not required.
+   
+3. **No Memory Wastage**:
+   - Memory is allocated as needed for linked list nodes, avoiding the need to preallocate memory like arrays.
+   
+4. **Flexible Data Storage**:
+   - Elements can be stored in non-contiguous memory locations, making better use of memory fragmentation.
+
+---
+
+#### **Disadvantages of Linked List:**
+1. **Memory Overhead**:
+   - Each node requires additional memory for the pointer/reference to the next node.
+   
+2. **Sequential Access**:
+   - Linked lists require traversal from the head to access elements, making random access inefficient compared to arrays.
+   
+3. **Complexity**:
+   - Implementing and managing linked lists is more complex than arrays, especially when handling edge cases (e.g., empty lists, inserting at the head/tail).
+   
+4. **Cache Unfriendliness**:
+   - Since elements are not stored in contiguous memory, linked lists have poorer cache locality compared to arrays, which can impact performance.
+
+---
+
+### b) **Collision in Hashing**
+
+#### **What is Collision?**
+- A **collision** occurs in hashing when two different keys are hashed to the same index in a hash table. This is inevitable because the hash function maps a large number of possible keys into a fixed number of indices.
+
+---
+
+#### **Collision Handling Techniques:**
+1. **Chaining (Separate Chaining)**:
+   - Store all elements that hash to the same index in a **linked list** or other structure at that index.
+   - Advantages:
+     - Easy to implement.
+     - Handles a high load factor (number of elements / table size).
+   - Disadvantages:
+     - Overhead of linked list pointers.
+     - May degrade to linear search in the worst case.
+
+2. **Open Addressing**:
+   - Instead of using separate structures, collisions are resolved by finding another open slot in the hash table itself.
+   - Common methods:
+     - **Linear Probing**: Check the next slot sequentially.
+     - **Quadratic Probing**: Check slots at increasing intervals (e.g., 1², 2², 3²...).
+     - **Double Hashing**: Use a second hash function to determine the step size for probing.
+   - Advantages:
+     - No additional memory for linked lists.
+     - Faster in practice for low load factors.
+   - Disadvantages:
+     - Performance deteriorates as the table becomes full.
+     - Clustering can occur, especially with linear probing.
+
+3. **Perfect Hashing**:
+   - Use a secondary hash function designed to eliminate collisions for a fixed set of keys.
+   - Suitable for static sets of data where keys are known in advance.
+
+4. **Rehashing**:
+   - When the load factor exceeds a threshold, create a new larger hash table and rehash all the elements.
+   - Helps avoid excessive collisions by maintaining a low load factor.
+
+5. **Separate Buckets**:
+   - Use other structures like balanced trees or dynamic arrays instead of linked lists for chaining. This reduces the impact of high collisions.
+
+---
+
+### **Key Considerations for Collision Handling:**
+- **Load Factor**: Keep the load factor low to minimize collisions.
+- **Choice of Hash Function**: A good hash function should distribute keys uniformly to reduce collisions.
+- **Performance vs. Memory Trade-offs**: Chaining uses more memory but can handle high load factors efficiently, while open addressing is more memory-efficient but struggles with high load factors.
+---
+
 ## Q5. b) Explan :
 ### **a) Complete and Connected Graph**
 
