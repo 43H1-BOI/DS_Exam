@@ -1,6 +1,6 @@
-## **Internal 1st 2K23**
+# **Internal 1st 2K23**
 ---
-### **Q1. What is a Stack?**
+## **Q1. What is a Stack?**
 
 A **stack** is a linear data structure that follows the **LIFO** (Last In, First Out) principle.  
 - This means the last element added to the stack is the first one to be removed.  
@@ -14,7 +14,7 @@ A **stack** is a linear data structure that follows the **LIFO** (Last In, First
 
 ---
 
-### **Uses of Stack**
+#### **Uses of Stack**
 
 1. **Expression Evaluation and Conversion**:  
    - Convert infix expressions to postfix or prefix.
@@ -38,7 +38,7 @@ A **stack** is a linear data structure that follows the **LIFO** (Last In, First
 
 ---
 
-### **Example**
+#### **Example**
 
 **Stack Operations**:
 1. Push elements: `[10, 20, 30]` → Stack becomes `[10, 20, 30]`.  
@@ -50,25 +50,22 @@ A **stack** is a linear data structure that follows the **LIFO** (Last In, First
 
 
 
-## **Internal 2nd 2K23**
+# **Internal 2nd 2K23**
 ---
-### **Q5. Construct a binary tree from the given In-order and Pre-order traversal sequences.**
+## **Q5. Construct a binary tree from the given In-order and Pre-order traversal sequences.**
 In-order sequence: D, B, E, A, F, C
 <br>Pre-order sequence: A, B, D, E, C, F
 
 
-### Constructed Tree:
-
+#### Constructed Tree:
 ```
        A
       / \
      B   C
     / \  /
-   D  E F
+   D   E F
 ```
 ---
-
-
 
 ## Q2. b) Define :
 ### **Dequeue (Double-Ended Queue):**
@@ -103,3 +100,5 @@ A **Priority Queue** is an abstract data structure where each element has a prio
 
 ---
 ---
+
+
